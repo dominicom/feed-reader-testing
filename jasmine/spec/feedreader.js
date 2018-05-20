@@ -129,8 +129,9 @@ $(function() {
           });
         }, 1000);
 
-        it('ensures if content changes after load new feed', function() {
+        it('ensures if content changes after load new feed', function(done) {
           expect(nextFeed).not.toEqual(prevFeed);
+          done();
         });
     });
 }());
