@@ -1,3 +1,4 @@
+
 # Feed Reader Testing
 
 Student Project #5 during Google Front-End Development Nanodegree Program at Udacity
@@ -8,6 +9,7 @@ This project demonstrates browser based testing using [Jasmine](http://jasmine.g
 ## Table of Contents
 
 * [Project Overview](#project-overview)
+* [How to Run Application](#how-to-run-application)
 * [Instructions](#instructions)
 * [Contributing](#contributing)
 
@@ -17,12 +19,26 @@ This is #5 student project made for Udacity classroom on Front-End Web Developer
 
 In this project students are given a web-based application that reads RSS feeds. For testing an existing web application with incomplete test suite  students have to use [Jasmine](http://jasmine.github.io/) to write a number of tests described on section [Instructions](#instructions).
 
-Live project with complete test suite [here](https://dominicom.github.io/feed-reader-testing/).
+
 
 #### Starter Project
 > link http://github.com/udacity/frontend-nanodegree-feedreader
 
+## How to Run Application
+Possible choices:
+
+**1**. Run test on your local machine:
+* download or clone the repository
+* open `index.html` file in your browser
+
+
+**2**. Open live project with complete test suite [here](https://dominicom.github.io/feed-reader-testing/).
+
+You will find test results in small popup on the right bottom corner of your browser.
+
 ## Instructions
+
+List of instructions for students to complete this project:
 
 Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/projects/3442558598/rubric)
 
@@ -52,6 +68,7 @@ Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/pr
 
 * jQuery
 * Jasmine
+* Handlebars.js
 * IcoMoon
 * Normalize.css
 

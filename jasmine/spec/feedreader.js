@@ -35,7 +35,7 @@ $(function() {
          it('has an URL defined and not empty', function() {
             allFeeds.forEach(function(item) {
               expect(item.url).toBeDefined();
-              expect(item.url).not.toBeNull();
+              expect(item.url).not.toBe('');
             });
          });
 
