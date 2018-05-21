@@ -24,7 +24,7 @@ $(function() {
          */
         it('are defined', function() {
             expect(allFeeds).toBeDefined();
-            expect(allFeeds.length).not.toBeNull();
+            expect(allFeeds.length).not.toBe(0);
         });
 
         /* This is #2 test - it loops through each feed
